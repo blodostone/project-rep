@@ -1,0 +1,157 @@
+.price-page {
+    width: 100vw;
+    height: 100vh;
+    color: #ffffff;
+    background: #141b1c;
+    display: flex;
+    .price-tables {
+        display: flex;
+        margin: auto;
+    }
+    .price-card {
+        margin-right: 18px;
+        background: #334247;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+        width: 380px;
+        height: 770px;
+        &__header {
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: 130px;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        &__title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 43px;
+        }
+        &__redline {
+            overflow: hidden;
+            position: absolute;
+            width: 147px;
+            height: 25px;
+            left: 270px;
+            top: 27px;
+            background: #dc3f45;
+            transform: rotate(45deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__redWord {
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: small;
+        }
+        // &__word-main {
+        //     display: flex;
+        //     align-items: center;
+        //     margin: 0;
+        //     font-weight: 700;
+        //     font-size: 35px;
+        //     line-height: 43px;
+        //     flex-direction: column;
+        // }
+        &__word-website {
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: 300;
+        }
+        &__price {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 105px;
+            width: 100%;
+            font-size: 55px;
+            font-weight: bold;
+        }
+        &__rectangle-price {
+            background: #5BB189;
+        }
+        &__cost {
+            position: absolute;
+            height: 67px;
+            left: 28.95%;
+            right: 28.95%;
+            top: calc(50% - 67px/2);
+            font-weight: bold;
+            font-size: 55px;
+            line-height: 67px;
+            text-align: center;
+        }
+        &__description {
+            display: flex;
+            margin: 40px 26px;
+            text-align: center;
+        }
+        &__description-text {
+            margin: auto;
+        }
+        &__options-list {
+            display: flex;
+            flex-direction: column;
+        }
+        &__cell {
+            height: 50px;
+            width: 380px;
+            display: flex;
+            align-items: center;
+        }
+        &__checkmark-symbol {
+            margin-left: 22px;
+        }
+        &__text {
+            width: 300px;
+            margin-left: 19px;
+        }
+        &__cell:nth-child(odd) {
+            background: #2a3438;
+        }
+        &__text:nth-child(odd) {
+            opacity: 0.5;
+        }
+        &__rectangle_order {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 112px;
+            margin-top: 39px;
+            width: 155px;
+            height: 40px;
+            border-radius: 20px;
+            font-size: 14px;
+            color: white;
+            outline: none;
+            border: transparent;
+        }
+        &__text-order {
+            text-transform: uppercase;
+        }
+        .btn_first {
+            background: #5bb189;
+        }
+        .btn_second {
+            background: #3a6ba5;
+        }
+        .btn_third {
+            background: #ec632a;
+        }
+        &__background-first {
+            background-color: #5bb189;
+        }
+        &__background-second {
+            background: #3a6ba5;
+        }
+        &__background-third {
+            background: #ec632a;
+        }
+    }
+}

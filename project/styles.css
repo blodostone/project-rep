@@ -16,7 +16,7 @@
   width: 380px;
   height: 770px;
 }
-.price-page .price-card__header {
+.price-page .price-card__section {
   position: relative;
   display: flex;
   width: 100%;

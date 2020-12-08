@@ -37,7 +37,7 @@ html {
   height: 130px;
   width: 100%;
 }
-.price-page .price-card__header {
+.price-page .price-card__title {
   display: flex;
   flex-direction: column;
   align-items: center;

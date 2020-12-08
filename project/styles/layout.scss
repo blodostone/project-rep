@@ -1,23 +1,26 @@
 .price-page {
+    display: flex;
     width: 100vw;
     height: 100vh;
     color: #ffffff;
     background: #141b1c;
-    display: flex;
+
+
     .price-tables {
         display: flex;
         margin: auto;
     }
+
     .price-card {
         margin-right: 18px;
         background: #334247;
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
         width: 380px;
         height: 770px;
-        
+
         &__section {
-            position: relative;
             display: flex;
+            position: relative;
             width: 100%;
             height: 130px;
             align-items: center;

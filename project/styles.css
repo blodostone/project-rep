@@ -1,9 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-weight: 300;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
 .price-page {
+  display: flex;
   width: 100vw;
   height: 100vh;
   color: #ffffff;
   background: #141b1c;
-  display: flex;
 }
 .price-page .price-tables {
   display: flex;
@@ -11,14 +23,14 @@
 }
 .price-page .price-card {
   margin-right: 18px;
-  background: #334247;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   width: 380px;
   height: 770px;
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
 .price-page .price-card__section {
-  position: relative;
   display: flex;
+  position: relative;
   width: 100%;
   height: 130px;
   align-items: center;
@@ -35,17 +47,17 @@
   line-height: 43px;
 }
 .price-page .price-card__redline {
-  overflow: hidden;
+  display: flex;
   position: absolute;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
   width: 147px;
   height: 25px;
   left: 270px;
   top: 27px;
   background: #dc3f45;
   transform: rotate(45deg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .price-page .price-card__redWord {
   font-weight: 600;
@@ -75,10 +87,10 @@
   left: 28.95%;
   right: 28.95%;
   top: calc(50% - 67px/2);
+  text-align: center;
   font-weight: bold;
   font-size: 55px;
   line-height: 67px;
-  text-align: center;
 }
 .price-page .price-card__description {
   display: flex;
@@ -93,9 +105,9 @@
   flex-direction: column;
 }
 .price-page .price-card__cell {
+  display: flex;
   height: 50px;
   width: 380px;
-  display: flex;
   align-items: center;
 }
 .price-page .price-card__checkmark-symbol {
@@ -145,18 +157,6 @@
 }
 .price-page .price-card__background-third {
   background: #ec632a;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  box-sizing: border-box;
-  font-weight: 300;
-  font-size: 15px;
-  font-family: "Montserrat", sans-serif;
-  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
